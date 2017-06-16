@@ -5,54 +5,85 @@
      -moz-box-sizing: border-box;
      box-sizing: border-box;
 }
-*:not(body):not(html) {
-  box-sizing:border-box;
-  border:1px dashed #000;
-}
 
 body {
-  background: url("../../img/world.jpg") no-repeat center center fixed;
+  background: url("../../img/curcit.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-}
+
 
 // <!------FULL CONTAINER---------------->
-.box {
-
-}
-.nav li {
-    display:inline;
-    list-style-type: none;
-    margin-right: 3px;
-  }
-.header {
-      border: 2px solid yellow;
-      height: 4vh;
-      margin-left: 10px;
-      margin-top: 15px;
-  }
-.nav {
-border: 2px solid blue;
-background-color: white;
-color: black;
-width: 170px;
-height: 120px;
-font-size: 15px;
-}
-.nav ul{
-  display: inline-block;
-  list-style-type: none;
-  margin-left: 2%;
-}
-
 
 // <!------NavBar---------------->
+.nav-header {
+  height: 100px;
+  border: 2px solid red;
+  padding-top: 25px;
+  }
 
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  }
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+  }
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 25px
+  }
+
+.name-header {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  border: 2px solid green;
+  }
 
 // <!------CENTER CONTAINER---------------->
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border: 4px solid red;
+  justify-content: space-between;
+}
+
+.child {
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+  flex-grow: 1;
+  border: 1px solid black;
+}
+
+.child:nth-child(1) {
+  flex-grow: 5;
+  background-color: yellow;
+}
+
+.child:nth-child(2) {
+  background-color: green;
+}
+
+.child:nth-child(3) {
+  flex-grow: 1;
+  background-color: yellow;
+}
+
+.child:nth-child(4) {
+  flex-grow: 2;
+  background-color: yellow;
+}
 
 
 // <!------CENTER CONTAINER---------------->
