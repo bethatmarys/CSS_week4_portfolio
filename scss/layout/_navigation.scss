@@ -1,3 +1,67 @@
-body {
-  background-color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
 }
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+body {
+  background: url("../../img/world.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+}
+
+// <!------FULL CONTAINER---------------->
+.box {
+
+}
+.nav li {
+    display:inline;
+    list-style-type: none;
+    margin-right: 3px;
+  }
+.header {
+      border: 2px solid yellow;
+      height: 4vh;
+      margin-left: 10px;
+      margin-top: 15px;
+  }
+.nav {
+border: 2px solid blue;
+background-color: white;
+color: black;
+width: 170px;
+height: 120px;
+font-size: 15px;
+}
+.nav ul{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 2%;
+}
+
+
+// <!------NavBar---------------->
+
+
+// <!------CENTER CONTAINER---------------->
+
+
+// <!------CENTER CONTAINER---------------->
+
+
+// <!------BIOGRAPHY---------------->
+
+
+// <!------CONTACT---------------->
+
+
+// <!------NAVBAR FOOTER---------------->
