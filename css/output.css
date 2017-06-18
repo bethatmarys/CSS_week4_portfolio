@@ -397,11 +397,17 @@ template {
   box-sizing: border-box; }
 
 body {
-  background: url("../../img/curcit.jpg") no-repeat center center fixed;
+  background: url("../../img/android.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.nav-bar {
+  height: 25px;
+  background-color: white;
+  font-size: 50px;
+  color: white; }
 
 .nav-header {
   height: 100px;
@@ -412,7 +418,11 @@ ul {
   display: flex;
   justify-content: space-around;
   align-content: center;
-  margin-top: 25px; }
+  margin-top: 25px;
+  color: white; }
+
+.fa-chevron-down {
+  color: white; }
 
 li {
   list-style-type: none;
@@ -431,44 +441,60 @@ a {
   font-size: 25px;
   border: 2px solid green; }
 
-.parent {
+.parent1 {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  margin-right: auto;
+  flex-grow: 1;
+  padding-left: 10px;
+  background-color: black;
+  opacity: .40;
+  width: 60px;
+  margin-top: 300px;
+  height: 50vh; }
+
+.parent:hover {
+  opacity: 0.8; }
+
+.sm-icon {
+  max-height: 100%;
+  max-width: 100%;
   width: 100%;
-  margin-top: 170px;
-  height: 40vh;
-  border: 4px solid red; }
+  height: auto;
+  opacity: 0.70; }
 
 .child1 {
-  flex-grow: 1;
-  height: 200px;
-  width: 150px;
-  background-color: yellow;
-  border: 5px solid green; }
+  height: 40px;
+  width: 40px; }
+
+.parent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: auto;
+  padding-left: 10px;
+  background-color: black;
+  opacity: .40;
+  width: 80px;
+  margin-top: 300px;
+  height: 50vh;
+  border: 4px solid green; }
+
+.parent:hover {
+  opacity: 0.8; }
+
+.sm-icon {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  opacity: 0.70; }
 
 .child2 {
-  flex-grow: 1;
-  height: 200px;
-  width: 150px;
-  background-color: yellow;
-  border: 5px solid green; }
-
-.child3 {
-  flex-grow: 1;
-  height: 200px;
-  width: 150px;
-  background-color: yellow;
-  border: 5px solid green; }
-
-.child4 {
-  flex-grow: 1;
-  height: 200px;
-  width: 150px;
-  background-color: yellow;
-  border: 5px solid green; }
+  height: 50px;
+  width: 70px; }
 
 /* Full background */
 /*background: url('../img/unsplash01.jpg') no-repeat center center fixed;
