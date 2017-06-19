@@ -444,7 +444,6 @@ a {
 .center {
   display: flex;
   justify-content: space-between;
-  border: 2px solid red;
   background-color: black;
   opacity: 1.0;
   margin-top: 300px;
@@ -452,6 +451,7 @@ a {
 
 .parent1 {
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
   background-color: green;
   opacity: 1.0;
@@ -462,28 +462,45 @@ a {
 .parent1:hover {
   opacity: 0.8; }
 
-.nanny {
+.nanny1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   height: 60vh; }
 
-.ugh {
+.ugh1 {
   display: flex;
   justify-content: space-around;
   height: 30px;
   width: 30px;
   border: 2px solid purple; }
 
-.center {
+.parent2 {
   display: flex;
-  justify-content: space-between;
-  border: 2px solid red;
-  background-color: black;
+  flex-direction: column;
+  background-color: yellow;
   opacity: 1.0;
-  margin-top: 300px;
+  width: 8vw;
+  height: 60vh;
+  border: 4px solid blue; }
+
+.parent2:hover {
+  opacity: 0.8; }
+
+.nanny2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
   height: 60vh; }
+
+.ugh2 {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  width: 30px;
+  border: 2px solid purple; }
 
 /* Full background */
 /*background: url('../img/unsplash01.jpg') no-repeat center center fixed;

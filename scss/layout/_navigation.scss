@@ -15,9 +15,9 @@ body {
 }
 
 
-// <!------FULL CONTAINER---------------->
 
-// <!------NavBar---------------->
+
+
 .nav-bar {
   height: 25px;
   background-color: white;
@@ -61,83 +61,67 @@ a {
   font-size: 25px;
   border: 2px solid green;
   }
+
+
+
 .center {
   display: flex;
-  justify-content: space-between;
-  border: 2px solid red;
+justify-content: space-between;
   background-color: black;
   opacity: 1.0;
   margin-top: 300px;
   height: 60vh;
-
-}
+  }
 .parent1 {
   display: flex;
+    justify-content: flex-start;
   flex-direction: column;
   background-color: green;
   opacity: 1.0;
   width: 8vw;
   height: 60vh;
   border: 4px solid pink;
-}
+  }
 .parent1:hover {
   opacity: 0.8;
 }
-.nanny {
+.nanny1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   height: 60vh;
-}
-.ugh {
+  }
+.ugh1 {
   display: flex;
   justify-content: space-around;
   height: 30px;
   width: 30px;
   border: 2px solid purple;
 }
-  .center {
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid red;
-    background-color: black;
-    opacity: 1.0;
-    margin-top: 300px;
-    height: 60vh;
-
+.parent2 {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  opacity: 1.0;
+  width: 8vw;
+  height: 60vh;
+  border: 4px solid blue;
   }
-  // .parent2 {
-  //   display: flex;
-  //   flex-direction: column;
-  //   background-color: green;
-  //   opacity: 1.0;
-  //   width: 8vw;
-  //   height: 60vh;
-  //   border: 4px solid pink;
-  // }
-  // .parent2:hover {
-  //   opacity: 0.8;
-  // }
-  // .nanny {
-  //   display: flex;
-  //   justify-content: space-around;
-  //   align-items: center;
-  //   flex-direction: column;
-  //   height: 60vh;
-  // }
-  // .ugh {
-  //   display: flex;
-  //   justify-content: space-around;
-  //   height: 30px;
-  //   width: 30px;
-  //   border: 2px solid purple;
-
-
-// <!------BIOGRAPHY---------------->
-
-
-// <!------CONTACT---------------->
-
-
-// <!------NAVBAR FOOTER---------------->
+.parent2:hover {
+  opacity: 0.8;
+  }
+.nanny2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  }
+.ugh2 {
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  width: 30px;
+  border: 2px solid purple;
+}
