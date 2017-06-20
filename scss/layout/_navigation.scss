@@ -16,30 +16,16 @@ body {
 }
 .nav-bar {
   background-color: black;
-  height: 70px;
   width: 100%;
+  height: 29px;
+  padding-top: 4px;
+  padding-left: 15px;
   }
-.sub-nav-bar {
-  display: flex;
-  background-color: black;
-  height: 70px;
-  width: 100%;
-  }
-
-.1 {
-  display: flex;
-  background-color: black;
-  height: 70px;
-  width: 100%;
+.nav-bar  {
+  font-family: 'Aldrich', sans-serif;
+  color: white;
+  font-weight: bold;
 }
-.2 {
-  display: flex;
-  background-color: black;
-  height: 70px;
-  width: 100%;
-
-}
-
 
 .center {
   display: flex;
